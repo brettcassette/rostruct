@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "rostruct"
   gem.homepage = "http://github.com/brettshollenberger/rostruct"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Recursive open struct implementation}
+  gem.description = %Q{Convert hashes within hashes to open structs.}
   gem.email = "brett.shollenberger@gmail.com"
   gem.authors = ["Brett Cassette"]
   # dependencies defined in Gemfile
