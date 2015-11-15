@@ -6,7 +6,7 @@ class ROstruct
 
     options.each do |key, value|
       if value.is_a?(Hash)
-        value = ROStruct.new(value)
+        value = ROstruct.new(value)
       end
 
       send("#{key}=", value)
